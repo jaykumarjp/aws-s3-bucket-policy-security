@@ -78,10 +78,10 @@ tr:nth-child(even) {
 
 <table>
   <tr>
-    <th>BucketName</th>
-    <th>Accessible</th>
-    <th>IsPublic</th>
-    <th>BucketPolicy</th>
+    <th>Bucket-Name</th>
+    <th>Public Access</th>
+    <th>Policy Result</th>
+    <th>Bucket Policy</th>
   </tr>'''
 
 footer = '''</table>
