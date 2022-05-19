@@ -20,12 +20,12 @@ def worker(item):
         policy = policy["Policy"] #Filtered json response and removed un-neccesory items.
 
         if ('"Effect":"Allow","Principal":"*"' in policy): 
-            ispub = '<p style="color:red">MayBePublic</p>'
+            ispub = '<p style="color:red">May-Be-Public</p>'
         else :
-            ispub = "NotPublic"
+            ispub = "Not-Public"
             
     except ClientError as e:
-        policy = ("Unexpected error: %s" % e)
+        policy = "It seems policy not attached"
         ispub = "NotPublic"
     
     s3url = "https://"+item+".s3.amazonaws.com"
