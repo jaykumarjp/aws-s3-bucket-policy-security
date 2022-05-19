@@ -10,3 +10,9 @@ This code will scan all s3 buckets and check bucket policy for security purpose.
 # usage: 
 Type command in terminal<br>
 ``` s3fast.py default > report.html ``` [If aws-cli profile is default else change "default" with profile name]
+
+# False-Positive
+It show "may be public", when prnciple is * but condition set to limited access. 
+
+# Future Update
+Reduce false-positive 
