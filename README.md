@@ -8,4 +8,4 @@ This code will scan all s3 buckets and check bucket policy for security purpose.
 
 # usage: 
 Type command in terminal
-[code] s3fast.py default > report.html [/code]
+``` s3fast.py default > report.html ``` [If aws-cli profile is default else change "default" with profile name]
