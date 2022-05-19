@@ -15,4 +15,5 @@ Type command in terminal<br>
 It show "may be public", when prnciple is * but condition set to limited access. 
 
 # Future Update
-Reduce false-positive 
+1. Reduce false-positive 
+2. Add - role based access
